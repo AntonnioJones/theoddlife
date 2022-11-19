@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 
+//custom externals
+import CreateCharacter from "./createcharacter";
+
 function App() {
   return (
-    <div className="App">
-      <h1>The Odd Life</h1>
-    </div>
+    <CreateCharacter></CreateCharacter>
   );
 }
 
